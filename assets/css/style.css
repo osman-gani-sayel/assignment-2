@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: mulish;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* start header css  */
+nav {
+
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 53px 0 61px 0;
+}
+.title {
+  display: flex;
+   align-items: center;
+}
+.logo {
+ width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+}
+.Hero {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.Travel {
+  color: #FF5400; 
+   font-weight: 800;
+}
+.nav-menu ul {
+ display: flex;
+}
+.nav-menu ul li {
+  padding-left: 44px;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration:none  ;
+   color: #424247;
+  font-size: 18px;
+}
+.home {
+  color: #FF5400; 
+   font-weight: 700;
+    font-size: 18px;
+}
+
+/* start banner-section css  */
+.banner-section h1 {
+  color: #FFF;
+font-size: 64px;
+font-weight: 800;
+  padding: 106px 0 24px 0;
+  text-align: center;
+
+
+}
+.banner-section p {
+  width: 676px;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 26px; 
+  margin: 0 auto;
+ 
+}
+
+.banner-section {
+  background-image: url("../images/Group\ 13\ \(1\)\ \(1\).png");
+width: 100%;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+/* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+ */
+}
+.banner-section-menu {
+ border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.30);
+  text-align: center;
+ 
+}
+.banner-section-menu button {
+  padding-left: 24px;
+}
+
+
